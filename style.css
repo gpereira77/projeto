@@ -4,9 +4,14 @@ body {
     margin: 70px auto 0;
     font-family: sans-serif;
     line-height: 1.5;
-    background: black;
+    background-color: black; 
     background-repeat: no-repeat;
     margin-top: 50px;
+    line-height: 1.5;
+    text-align: justify;
+  
+    
+    
     
 }
 
@@ -30,11 +35,6 @@ nav{
     border: solid 08px white;
 
 }
-
-
-
-
-
 
 section{
     text-align: cener;
@@ -75,6 +75,13 @@ h3{
   font-size: 30px;
 }
 
+h4{
+    color: white;
+    font-size: 30px;
+    margin-top: -10px;    
+    margin-bottom: -10px;
+}
+
 section{
     text-align: center;
     margin-top:0;
@@ -88,9 +95,9 @@ p{
     text-transform: uppercase;
     letter-spacing: 1px;
     color: white;
-    text-align: right;
+    text-align: center;
     font-size: 15px;
-    
+    text-align: justify;
 }
 
 .final{
@@ -101,6 +108,62 @@ p{
 footer{
     width: auto;
     height: 60px;
-    margin-bottom: 100px;
-  
+    margin-top: 50px;
+    border: 2px solid red;
+}
+
+.icone {
+    /* width: 50px;
+    height: 50px; */
+    display: flex;
+    border: green 2px solid;
+    margin: 70px;
+    font-size: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    /* position: relative; */
+    border: red 3px solid;
+    
+}
+
+article {
+    border: blue solid 2px;
+}
+
+
+.designer {
+    border: yellow solid 2px;
+    margin-bottom: -50px;
+}
+
+article {
+    margin: 20px;
+}
+
+.projeto{
+    border: red solid 2px;
+    display: flex;
+    margin-left: 15px;
+}
+
+.pj{
+    border: blue solid 3px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.casamento {
+    border: red solid 2px;
+    display: flex;
+    margin-left: 15px;
+}
+
+.pj2 {
+    border: blue solid 3px;
+    margin-right: 10px;
+    text-align: justify;
 }
